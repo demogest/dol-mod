@@ -6,8 +6,9 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
+- Discord 交流服务器：
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7800082e-5667-4035-bb58-cfda7d6e1e08/deploy-status)](https://app.netlify.com/sites/graceful-starlight-97b8ae/deploys)
+[![](https://dcbadge.vercel.app/api/server/XuyvxfWq)](https://discord.gg/XuyvxfWq)
 
 ---
 ## 目录
@@ -23,7 +24,7 @@
 
 ## 简介
 ### 写在最前...
-- <img decoding="async" src="https://gitgud.io/uploads/-/system/user/avatar/9096/avatar.png" width="24"> <b>游戏作者</b> $\color{purple} {Vrelnir}$
+- <img decoding="async" src="https://gitgud.io/uploads/-/system/user/avatar/9096/avatar.png" width="24" alt=""> <b>游戏作者</b> $\color{purple} {Vrelnir}$
   
   - [Vrelnir 的博客][blog]
   - [英文游戏维基][wiki-en]
@@ -32,25 +33,27 @@
   - [游戏源码仓库][gitgud]
 
 ### 关于本仓库
--> [本仓库地址][github-dol] <- 
+-> [本仓库地址][github-dol] <-
+
+-> [ModLoader 下载地址][modloader]<-
 
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
 
 游戏完全免费游玩，严禁将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。允许在小范围个人之间传播，传播时请附上原作者的相关信息。
 
-**如在游玩过程中遇到任何问题，或对汉化文本有建议，请发布 issue 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
-- __不要删除自己的 `issue`, 方便后来人查阅相关问题__
+**如在游玩过程中遇到任何问题，或对汉化文本有建议，请[发布 issue][issues] 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
+- **不要删除自己的 `issue`, 方便后来人查阅相关问题**
 
 **请注意，本仓库仅解决由于游戏汉化版本导致的问题**
-- **如果问题在英文版能复现，请去游戏官方 Discord 反映。**
+- **如果问题在英文版能复现，请去游戏官方 [Discord][discord] 反映。**
 
 ### 关于游戏发布
 
 #### 发布下载版
-- 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
+- 如无特殊情况，本仓库北京时间每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
 
 #### 在线游玩版
-- 游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
+- 游戏发布时会自动部署到 [GitHub Pages][ghpages]
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
@@ -78,6 +81,7 @@
 
 [![Stargazers over time](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization.svg)](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
+---
 
 ## 免责声明
 
@@ -93,11 +97,93 @@
 
 6. 本公告的最终解释权由汉化组享有，未尽事宜均以汉化组采取之行为为准。
 
+---
 
 ## 更新日志
 <details>
 <summary>点击展开</summary>
 
+> 2023.11.04
+> - 发布 `dol-0.4.3.3-chs-alpha2.0.1` 版
+>   - 删除了悉尼承诺仪式多字 [@issue/156][issue156]
+>   - 汉化了兽性未汉化内容 [@issue/157][issue157]
+>   - 删除了神庙晋升仪式多字 [@issue/158][issue158]
+>   - 修复了成人用品店的報错 [@issue/159][issue159]
+>   - 修复了神庙回廊及态度选项报错 [@issue/161][issue161]
+>   - 改进了英语剧演出文本 [@issue/163][issue163]
+>   - 改进了黑客交谈文本 [@issue/164][issue164]
+>   - 改进了神殿忏悔室文本 [@issue/165][issue165]
+>   - 汉化了幽灵战斗文本 [@issue/166][issue166]
+>   - 修复了神殿回廊报错 [issue/167][issue167]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+>
+> 2023.11.03
+> - 发布 `dol-0.4.3.3-chs-alpha2.0.0` 版
+>   - 修复了窥视罗宾房间报错 [@issue/144][issue144]
+>   - 改进了统计栏中对衣服的描述 [@issue/149][issue149]
+>   - 修复了悉尼表白词的微小错误 [@issue/151][issue151]
+>   - 修复了PC高潮描述文本細微錯誤 [@issue/153][issue153]
+>   - 修复了遭遇战埋胸文本漏字的问题 [@issue/154][issue154]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> - 游戏本体更新至 `0.4.3.3` 版本
+>   - 初步汉化完成 `dol-0.4.3.3-chs-alpha2.0.0-pre` 版
+> 
+>
+> 2023.11.02
+> - 游戏本体更新至 `0.4.3.2` 版本
+>   - 初步汉化完成 `dol-0.4.3.2-chs-alpha1.0.0-pre` 版
+>   - 初步汉化完成 `dol-0.4.3.2-chs-alpha1.0.1-pre` 版
+> 
+> 
+> 2023.11.01
+> - 游戏本体更新至 `0.4.3.1` 版本
+> 
+> 
+> 2023.10.27
+> - 发布 `dol-0.4.2.7-chs-alpha4.3.0` 版
+>   - 修复了npc性别滑块设置中间文本出错问题[@issue/139][issue139]
+>   - 修复了染眉颜色选项未汉化的问题[@issue/140][issue140]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+>
+> 
+> 2023.10.20
+> - 发布 `dol-0.4.2.7-chs-alpha4.2.1` 版
+>   - 修复了无法查看属性的报错 [@issue/133][issue133] [@issue/134][issue134] [@issue/135][issue135] [@issue/136][issue136] [@issue/137][issue137] [@issue/138][issue138]
+>   
+> - 发布 `dol-0.4.2.7-chs-alpha4.2.0` 版
+>   - 修复了男女更衣室的人称代词问题 [@issue/124][issue124]
+>   - 翻译了设置中未翻译的米奇黑客文本 [@issue/125][issue125]
+>   - 修复了成人用品店中一处文本错字 [@issue/127][issue127]
+>   - 翻译了战斗挣扎选项中一处未翻译文本 [@issue/128][issue128]
+>   - 翻译了技能判定一处未翻译文本 [@issue/129][issue129]
+>   - 改进了性行为相关一处文本措辞 [@issue/130][issue130]
+>   - 修复一处与怀孕相关的问题 [@issue/131][issue131]
+>   - 修复圣诞演出中一处文本错字 [@issue/132][issue132]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.10.15
+> - 因用户流量过大，停止使用 Netlify 镜像部署在线版，以后将仅用 [GitHub Pages][ghpages] 部署在线版
+>
+> 
+> 2023.10.13
+> - 发布 `dol-0.4.2.7-chs-alpha4.1.0` 版
+>   - 修复了多瑙河街豪宅敲門打工報錯的问题 [@issue/115][issue115]
+>   - 修复了更衣室伏击梅森报错的问题 [@issue/116][issue116]
+>   - 改进了卡在墙壁的错误翻译 [@issue/117][issue117]
+>   - 修复了奶牛農場的文本報錯 [@issue/118][issue118]
+>   - 修复了学校泳池男更衣室与角色交互报错 [@issue/121][issue121]
+>   - 修复了一处汉化文本错误 [@issue/122][issue122]
+>   - 修复了森林裡和黃蜂的場景報錯的问题 [@issue/123][issue123]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
 > 2023.10.09
 > - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版
 >   - 游戏本体更新至 `0.4.2.7` 版本
@@ -108,12 +194,13 @@
 >   - 修复与神殿相关的问题 [@issue/101][issue101] [@issue/107][issue107] [@issue/108][issue108]
 >   - 修复与悉尼和贞操带相关的问题 [@issue/102][issue102] [@issue/106][issue106]
 >   - 修复与购买服装相关的问题 [@issue/103][issue103] [@issue/109][issue109] [@issue/112][issue112]
->   - 修改本仓库更新日志时间线为倒序排列 [@issue/105][issue105]
 >   - 修复左右手写错的问题 [@issue/110][issue110]
 >   - __注：对于在新旧版本间反复载入导出存档可能会导致如 [@issue/111][issue111] 的问题，解决方案请参考评论。__
 >   - 修复了由于语法不匹配导致的与战斗文本相关的一系列问题 [@issue/113][issue113]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> - 修改本仓库更新日志时间线为倒序排列 [@issue/105][issue105]
+> 
 > 
 > 2023.10.06
 > - 发布 `dol-0.4.2.6-chs-alpha3.0.1` 版
@@ -290,6 +377,9 @@
 [ghpages]: https://eltirosto.github.io/Degrees-of-Lewdity-Chinese-Localization/
 [netlify]: https://graceful-starlight-97b8ae.netlify.app/
 [android]: https://vrelnir.blogspot.com/?zx=a843afdd9c310383
+[releases-latest]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/latest
+[modloader]: https://github.com/Lyoko-Jeremie/DoLModLoaderBuild/releases
+[issues]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/new/choose
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
@@ -375,3 +465,41 @@
 [issue111]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/111
 [issue112]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/112
 [issue113]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/113
+[issue115]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/115
+[issue116]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/116
+[issue117]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/117
+[issue118]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/118
+[issue121]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/121
+[issue122]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/122
+[issue123]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/123
+[issue124]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/124
+[issue125]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/125
+[issue127]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/127
+[issue128]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/128
+[issue129]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/129
+[issue130]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/130
+[issue131]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/131
+[issue132]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/132
+[issue133]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/133
+[issue134]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/134
+[issue135]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/135
+[issue136]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/136
+[issue137]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/137
+[issue138]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/138
+[issue139]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/139
+[issue140]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/140
+[issue144]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/144
+[issue149]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/149
+[issue151]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/151
+[issue153]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/153
+[issue154]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/154
+[issue156]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/156
+[issue157]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/157
+[issue158]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/158
+[issue159]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/159
+[issue161]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/161
+[issue163]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/163
+[issue164]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/164
+[issue165]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/165
+[issue166]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/166
+[issue167]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/167
